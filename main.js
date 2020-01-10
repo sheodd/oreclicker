@@ -1,3 +1,6 @@
+//Copyright © 2020 Sheodd
+
+
 var copper = 0;
 var moneys = 0;
 var copperMine = false;
