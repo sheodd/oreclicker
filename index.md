@@ -1,0 +1,34 @@
+<html>
+<head>
+<!-- Copyright © 2020 Sheodd -->
+<link rel="stylesheet" type="text/css" href="interface.css">
+</head>
+<body onload='Load()'>
+money:<span id="moneys">0</span>
+</br>
+<button onclick='coalClick(1 + ((Math.floor(totalmult * 2)) * 1000) / 1000)'>Mine Coal</button>Total Coal: <span id='coal'> 0 </span> | Coal/S: <span id='cps'>0</span><button onclick='coalSell()'>Sell</button><button onClick='buyAutoMineCoal()'>Auto Mine</button>
+</br>
+</br>
+<button onclick='buyCopperMine()'>buy copper mine</button>
+
+</br>
+
+<button onclick="copperClick(1)">Mine Copper Ore:</button><span id='coppers'>0</span> <button onclick="sellCopper()">sell</button>
+</br>
+</br>
+<button onclick='cRebirth()'>rebirth</button>
+</br>
+<span id='rebirth'>0</span>
+</br>
+<button onclick='Save()'>Save</button><button onclick='Load()'>Load</button><button onClick='Delete()'>Delete Save</button>
+
+
+
+
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
