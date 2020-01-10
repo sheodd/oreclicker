@@ -1,0 +1,23 @@
+button {
+	background-image:test.png;
+	background-color: gray;
+	color:white;
+	border-color: white;
+	width: 170px;
+	height:30px;
+	margin:10px;
+	cursor:url('test.png'), auto;
+}
+body {
+	background-color: black;
+	color:white;
+	cursor:url('test.png'), auto;
+	
+}
+button:hover{
+	background-color:#7ffc03;
+	color: black;
+	width:170px;
+	height:30px;
+	cursor:url('test.png'), auto;
+}
