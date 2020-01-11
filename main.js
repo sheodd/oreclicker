@@ -65,13 +65,13 @@ function buyAutoMineCoal(){
 
 //reset value go up
 function rebirth(){
-	restart = ((Math.floor((restart + 0.01)*1000))/1000) / 10;
+	restart = ((Math.floor((restart + 0.01)*1000))/1000);
 	document.getElementById('rebirth').innerHTML = restart.toFixed(2);
 	
 };
 // collect rebirth mult
 function cRebirth(){
-	if (restart >= 1){
+	if (restart >= 100){
 		totalmult = restart;
 		coal = 0;
 		copper = 0;
