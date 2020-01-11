@@ -65,8 +65,8 @@ function buyAutoMineCoal(){
 
 //reset value go up
 function rebirth(){
-	restart = (Math.floor((restart + 0.01)*1000))/1000;
-	document.getElementById('rebirth').innerHTML = restart;
+	restart = ((Math.floor((restart + 0.01)*1000))/1000) / 10;
+	document.getElementById('rebirth').innerHTML = restart.toFixed(2);
 	
 };
 // collect rebirth mult
